@@ -17,4 +17,5 @@ for printid in output['Reservations']:
                   (printid2['InstanceType']),
                   (printid2['LaunchTime']),
                   (printid2['State']['Name']),
+		  (printid2['State']['Name']),
                   (printid3['Value']))
